@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "com.htc.upm.wave.essence": "file:../LocalPackages/com.htc.upm.wave.essence-5.1.0-r.5.tgz",
-    "com.htc.upm.wave.native": "file:../LocalPackages/com.htc.upm.wave.native-5.1.0-r.5.tgz",
-    "com.htc.upm.wave.xrsdk": "file:../LocalPackages/com.htc.upm.wave.xrsdk-5.1.0-r.5.tgz",
+    "com.htc.upm.wave.essence": "5.1.0-r.15",
+    "com.htc.upm.wave.native": "5.1.0-r.15",
+    "com.htc.upm.wave.xrsdk": "5.1.0-r.15",
     "com.unity.collab-proxy": "1.17.2",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.15",
@@ -44,5 +44,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "vive",
+      "url": "https://npm-registry.vive.com/",
+      "scopes": [
+        "com.htc.upm"
+      ]
+    }
+  ]
 }

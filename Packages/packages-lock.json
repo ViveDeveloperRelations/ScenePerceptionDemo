@@ -1,29 +1,32 @@
 {
   "dependencies": {
     "com.htc.upm.wave.essence": {
-      "version": "file:../LocalPackages/com.htc.upm.wave.essence-5.1.0-r.5.tgz",
+      "version": "5.1.0-r.15",
       "depth": 0,
-      "source": "local-tarball",
+      "source": "registry",
       "dependencies": {
-        "com.htc.upm.wave.xrsdk": "5.1.0-r.5",
-        "com.htc.upm.wave.native": "5.1.0-r.5"
-      }
+        "com.htc.upm.wave.xrsdk": "5.1.0-r.15",
+        "com.htc.upm.wave.native": "5.1.0-r.15"
+      },
+      "url": "https://npm-registry.vive.com"
     },
     "com.htc.upm.wave.native": {
-      "version": "file:../LocalPackages/com.htc.upm.wave.native-5.1.0-r.5.tgz",
+      "version": "5.1.0-r.15",
       "depth": 0,
-      "source": "local-tarball",
+      "source": "registry",
       "dependencies": {
-        "com.htc.upm.wave.xrsdk": "5.1.0-r.5"
-      }
+        "com.htc.upm.wave.xrsdk": "5.1.0-r.15"
+      },
+      "url": "https://npm-registry.vive.com"
     },
     "com.htc.upm.wave.xrsdk": {
-      "version": "file:../LocalPackages/com.htc.upm.wave.xrsdk-5.1.0-r.5.tgz",
+      "version": "5.1.0-r.15",
       "depth": 0,
-      "source": "local-tarball",
+      "source": "registry",
       "dependencies": {
-        "com.unity.xr.management": "4.2.1"
-      }
+        "com.unity.xr.management": "3.2.4"
+      },
+      "url": "https://npm-registry.vive.com"
     },
     "com.unity.collab-proxy": {
       "version": "1.17.2",
@@ -200,7 +203,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.2.1",
+      "version": "4.2.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {

@@ -21,7 +21,7 @@ namespace Wave.Essence.ScenePerception.Sample
 		private bool isSceneCMPStarted = false, hidePlanesAndAnchors = false;
 
 		private WVR_ScenePerceptionTarget currentPerceptionTarget = WVR_ScenePerceptionTarget.WVR_ScenePerceptionTarget_2dPlane;
-		
+
 		private List<KeyValuePair<WVR_Uuid, WVR_ScenePlane>> currentScenePlaneList = new List<KeyValuePair<WVR_Uuid, WVR_ScenePlane>>();
 		private List<KeyValuePair<WVR_Uuid, GameObject>> generatedPlaneGOList = new List<KeyValuePair<WVR_Uuid, GameObject>>();
 
