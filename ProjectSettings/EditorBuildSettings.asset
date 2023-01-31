@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Wave/Essence/ScenePerception/5.1.0-r.5/Demo/Scenes/ScenePerceptionDemo.unity
     guid: 2a9be5c2e2ac6b6448bf9e55497dac9b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Wave/Essence/ScenePerception/5.1.0-r.5/Demo/Scenes/ScenePerceptionDemo2.unity
     guid: 5aa0818c511db4f4d86f36903e55fa8a
   m_configObjects:
