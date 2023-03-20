@@ -4,6 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Wave/Essence/ScenePerception/5.2.0-r.8/Demo/Scenes/ScenePerceptionDemo(PlaneAnchor).unity
+    guid: 2a9be5c2e2ac6b6448bf9e55497dac9b
   m_configObjects:
     com.htc.upm.wave.xrsdk.xrsettings: {fileID: 11400000, guid: 08c879f28028fef4896c6a9528a7c327, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f343d20679282d64fbcba6c0d758d2c6, type: 2}
