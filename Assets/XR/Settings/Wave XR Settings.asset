@@ -58,4 +58,4 @@ MonoBehaviour:
   EnableEyeExpression: 0
   EnableLipExpression: 0
   EnableScenePerception: 1
-  EnableSceneMesh: 0
+  EnableSceneMesh: 1
